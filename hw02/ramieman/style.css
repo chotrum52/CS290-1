@@ -1,0 +1,52 @@
+/* Table */
+table, td, th, form {
+    border-color: grey;
+    border-style: solid;
+    border-width: 1px;
+}
+
+tbody td:first-child{
+    font-style:italic;
+}
+
+/* Colors */
+tbody tr:nth-child(even){
+    background-color: lightblue;
+}
+tbody tr:nth-child(odd){
+    background-color: lightgreen;
+}
+tbody td:nth-child(4){
+    color:blue;
+}
+
+tbody td:nth-child(2){
+    color:red;
+}
+
+
+/* Language list */
+dl.language-list dd:nth-child(odd){
+    text-align: left;
+    margin-left: 0px;
+    position: left;
+}
+
+/* Div CSS */
+div.outer-content{
+    background: pink;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    padding: 10px;
+    width: 75%;
+}
+
+div.inner-content{
+    text-align: center;
+    margin: 0 auto;
+    background: cyan;
+    width: 75%;
+
+}
