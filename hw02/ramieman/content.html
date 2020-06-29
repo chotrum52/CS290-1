@@ -80,9 +80,38 @@
     </section>
 
     <section>
-        <form action="http://www.example.com/review.php" method="get">
+        <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="get">
             <fieldset>
                 <legend>Some GET data</legend>
+                <label>Text here:
+                    <input type="text" name="text" size="30" maxlength="100">
+                </label>
+                <br />
+                <label>Number here:
+                    <input type="text" name="number" size="30" maxlength="100">
+                </label>
+                <br />
+                <label>Password here:
+                    <input type="text" name="password" size="30" maxlength="100">
+                </label>
+                <br />
+                <p>Select between:<br />
+                  <label>
+                    <input type="radio" name="select" value="snickers" />Snickers</label><br />
+                    <input type="radio" name="select" value="skittles" />Skittles</label><br />
+                    <input type="radio" name="select" value="mentos" />Mentos</label><br />
+                    <input type="submit" value="Submit" />
+                </p>
+
+            </fieldset>
+            <br />
+        </form>
+    </section>
+
+    <section>
+        <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="post">
+            <fieldset>
+                <legend>Some POST data</legend>
                 <label>Text here:
                     <input type="text" name="text" size="30" maxlength="100">
                 </label>
