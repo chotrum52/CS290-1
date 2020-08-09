@@ -1,0 +1,32 @@
+<h1 class="main-title">WOD Tracker 2020</h1>
+<p>Enter your WOD excercises down below</p>
+<form id="workout-submission" class="post" autocomplete="off">
+    <div class="form-group">
+        <label for="input-name">Exercise:</label>
+        <input id="input-name" class="name" type="text" placeholder="Squat"/>
+    </div>
+    <div class="form-group">
+        <label for="input-reps">Reps:</label>
+        <input id="input-reps" class="rep" type="number" autocomplete="off" placeholder="12"/>
+    </div>
+    <div class="form-group">
+        <label for="input-weight">Weight:</label>
+        <input id="input-weight" class="weight" type="number" autocomplete="off" placeholder="325"/>
+    </div>
+    <div class="form-group">
+        <label for="input-date">Date:</label>
+        <input id="input-date" class="date" type="text" autocomplete="off" placeholder="2020-08-05"/>
+    </div>
+    <div class="form-group">
+        <label for="input-units">Units:</label>
+        <select id="input-units" class="units">
+            <option value="0">kg</option>
+            <option value="1">lbs</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <button class="add-task btn btn-submit" type="submit">Submit</button>
+    </div>
+</form>
+<div class="edit-form-container"></div>
+<div class="workout-table-container"></div>
